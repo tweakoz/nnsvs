@@ -34,9 +34,14 @@ setup(
         "pyworld",
         "tensorboard",
         "nnmnkwii",
-        #"pysinsy",
-        "h5py",
         "pyloudnorm",
+        #"pysinsy",
+
+        "h5py",
+        "yarl", # OBT
+        "os-release", # OBT
+        "wavio" #
+
     ],
     dependency_links=[
         "git+https://github.com/tweakoz/pysinsy.git@master#egg=pysinsy",
