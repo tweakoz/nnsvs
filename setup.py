@@ -34,8 +34,11 @@ setup(
         "pyworld",
         "tensorboard",
         "nnmnkwii",
-        "pysinsy",
+        #"pysinsy",
         "pyloudnorm",
+    ],
+    dependency_links=[
+        "git+https://github.com/tweakoz/pysinsy.git@master#egg=pysinsy",
     ],
     extras_require={
         "dev": [
