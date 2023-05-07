@@ -35,6 +35,7 @@ setup(
         "tensorboard",
         "nnmnkwii",
         #"pysinsy",
+        "h5py",
         "pyloudnorm",
     ],
     dependency_links=[
